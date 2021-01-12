@@ -12,6 +12,8 @@ year={2021}
 }
 ```
 
+## Dataset Description
+
 Each folder contains file(s) totalling 10 hours of throughput data under 3 scenarios:
 
 1. Static (Section 3.2)
@@ -22,7 +24,7 @@ Each folder contains file(s) totalling 10 hours of throughput data under 3 scena
 
 Please refer to the corresponding sections in the paper for more details regarding the scenarios.
 
-Each file contains the following data for every 10 ms (each row):
+Each file contains the following data for every 10 ms (each row in the CSV file):
 
 * Android sensor data
   * Positional data (Azimuth, Pitch, Roll)
@@ -40,10 +42,12 @@ Below is an image of the device setup used to collect this dataset.
 
 <img src="hardware-setup/setup.png" width="30%"/>
                    
-As can be seen, the smartphone ([ASUS ROG Phone II](https://rog.asus.com/us/phones/rog-phone-ii-model/)) is placed in a [Google Cardboard VR Headset](https://arvr.google.com/cardboard/). There are basically 3 dimensions of motion for the smartphone.
+As can be seen, the smartphone ([ASUS ROG Phone II](https://rog.asus.com/us/phones/rog-phone-ii-model/)) is placed in a [Google Cardboard VR Headset](https://arvr.google.com/cardboard/). There are basically 3 dimensions of motion for the smartphone:
 
 1) Rotation w.r.t. the Azimuth axis (X-axis in figure)
 2) Rotation w.r.t. the Pitch axis (Y-axis in figure)
 3) Translation motion along the Slide axis
 
-This setup which allows us to simulatenously move the smartphone in all 3 dimensions is enabled by using the [Cinetics Lynx 3-Axis Slider](https://cinetics.com/lynx-3-axis-slider/).
+This setup which allows us to simulatenously move the smartphone in all 3 dimensions is enabled by using the [Cinetics Lynx 3-Axis Slider](https://cinetics.com/lynx-3-axis-slider/). Please take a look at the GIF in the `hardware-setup` folder for a visual demonstration of how the slider moves ([source](https://cinetics.com/lynx-3-axis-slider/)).
+
+The [Dragonframe](https://www.dragonframe.com) software allowed us to programmatically control the Lynx setup to perform custom mobility patterns at various speeds.
