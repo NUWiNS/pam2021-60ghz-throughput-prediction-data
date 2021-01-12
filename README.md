@@ -1,6 +1,17 @@
 # Throughput Prediction on 60 GHz Mobile Devices for High-Bandwidth, Latency-Sensitive Applications
 Data from our PAM 2021 publication used for throughput prediction in static and mobile scenarios
 
+If you use this dataset in your publication, please cite us as follows:
+
+```
+@InProceedings{aggarwal:pam2021,
+author={Aggarwal, Shivang and Kong, Zhaoning and Ghoshal, Moinak and Hu, Y. Charlie and Koutsonikolas, Dimitrios},
+title={Throughput Prediction on 60 GHz Mobile Devices for High-Bandwidth, Latency-Sensitive Applications},
+booktitle={Passive and Active Measurement (PAM)},
+year={2021}
+}
+```
+
 Each folder contains file(s) totalling 10 hours of throughput data under 3 scenarios:
 
 1. Static (Section 3.2)
