@@ -33,3 +33,17 @@ Each file contains the following data for every 10 ms (each row):
   * Link Status
   * Signal Quality Indicator (SQI)
   * RSSI
+
+## Hardware Setup
+
+Below is an image of the device setup used to collect this dataset.
+
+<img src="hardware-setup/setup.png" width="30%"/>
+                   
+As can be seen, the smartphone ([ASUS ROG Phone II](https://rog.asus.com/us/phones/rog-phone-ii-model/)) is placed in a [Google Cardboard VR Headset](https://arvr.google.com/cardboard/). There are basically 3 dimensions of motion for the smartphone.
+
+1) Rotation w.r.t. the Azimuth axis (X-axis in figure)
+2) Rotation w.r.t. the Pitch axis (Y-axis in figure)
+3) Translation motion along the Slide axis
+
+This setup which allows us to simulatenously move the smartphone in all 3 dimensions is enabled by using the [Cinetics Lynx 3-Axis Slider](https://cinetics.com/lynx-3-axis-slider/).
